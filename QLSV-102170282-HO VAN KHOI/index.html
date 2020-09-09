@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <title></title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="content left">
+            <ul class="students-list" id="students-list">
+            </ul>
+        </div>
+
+        <div class="content student-form">
+
+            <div class="form-group">
+                <label class="label" for="">MSSV</label>
+                <input id="mssv" class="input mssv" type="text" name="" value="">
+                <span id="mssv-error" class="error"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="label" for="">Name</label>
+                <input id="name" class="input name" type="text" name="" value="">
+                <span id="name-error" class="error"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="label" for="">Email</label>
+                <input id="email" class="input email" type="text" name="" value="">
+                <span id="email-error" class="error"></span>
+            </div>
+
+            <!-- <div class="form-group">
+                <label class="label" for="">Giới tính</label>
+                <div class="radio-group">
+                    <input class="gender" type="radio" name="gender" id="male" value="1">Nam
+                    <input class="gender" type="radio" name="gender" id="female" value="2">Nữ
+                </div>
+                <span id="gender-error" class="error"></span>
+            </div> -->
+
+            <div class="form-group">
+                <button class="createStudent" type="button" name="button"
+                    onclick="onClickCreateStudent()">Create</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)"></script>
+</body>
+
+</html>
